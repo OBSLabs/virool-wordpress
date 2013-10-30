@@ -78,16 +78,6 @@ function virool_footer() {
       if (!empty($virool_widget_close_after))
         array_push($options, array('closeAfter', $virool_widget_close_after));
 
-      //   array('width', $virool_widget_width),
-      //   array('height', $virool_widget_height),
-      //   array('headerText', $virool_widget_header_text),
-      //   array('closeText', $virool_widget_close_text),
-      //   array('timerText', $virool_widget_timer_text),
-      //   array('closeAfter', $virool_widget_close_after)
-      // );
-
-      // $options = array_filter($options, function($var) { return !empty($var[1]); });
-
       echo "<script type='text/javascript' src='//virool.at/js/widget.overlay.js'></script>";
       echo "<script type='text/javascript'>";
       echo "ViroolWidgetModal.open('//api.virool.com/widgets/" . $virool_site_key . "', { ";
