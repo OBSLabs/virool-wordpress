@@ -48,10 +48,10 @@ $virool_widget_close_after = get_option( 'virool_widget_close_after' );
     <table class="form-table">
       <tbody>
         <tr valign="top">
-          <th scope="row"><label for="virool_site_key">Virool Site key</label></th>
+          <th scope="row"><label for="virool_site_key">Virool API key</label></th>
           <td>
             <input type="text" name="virool_site_key" value="<?php echo $virool_site_key; ?>" size="30" class="regular-text"/>
-            <p class="description">Required. Your site key. Copy it from <a href="https://www.virool.com/sites" target="_blank">https://www.virool.com/sites</a></p>
+            <p class="description">Required. Your api key. Copy it from <a href="https://www.virool.com/sites" target="_blank">https://www.virool.com/sites</a></p>
           </td>
         </tr>
 
