@@ -102,7 +102,7 @@ $virool_widget_close_after = get_option( 'virool_widget_close_after' );
         <tr valign="top" class="virool-widget-settings overlay-settings" <?php if ($virool_integration != 'overlay') { echo "style='display: none;'"; } ?>>
           <th scope="row"><label for="virool_widget_header_text">Header text:</label></th>
           <td>
-            <input type="text" name="virool_widget_header_text" id="virool_widget_header_text" value="<?php echo $virool_widget_header_text; ?>" size="80"/>
+            <input type="text" name="virool_widget_header_text" id="virool_widget_header_text" value="<?php echo stripslashes($virool_widget_header_text); ?>" size="80"/>
             <p class="description">Optional. Text above the widget. (default: 'Please support this site by watching this video')</p>
           </td>
         </tr>
@@ -110,7 +110,7 @@ $virool_widget_close_after = get_option( 'virool_widget_close_after' );
         <tr valign="top" class="virool-widget-settings overlay-settings" <?php if ($virool_integration != 'overlay') { echo "style='display: none;'"; } ?>>
           <th scope="row"><label for="virool_widget_close_text">Close text:</label></th>
           <td>
-            <input type="text" name="virool_widget_close_text" id="virool_widget_close_text" value="<?php echo $virool_widget_close_text; ?>" size="80"/>
+            <input type="text" name="virool_widget_close_text" id="virool_widget_close_text" value="<?php echo stripslashes($virool_widget_close_text); ?>" size="80"/>
             <p class="description">Optional. Close link text. (default: 'Skip Ad')</p>
           </td>
         </tr>
@@ -118,7 +118,7 @@ $virool_widget_close_after = get_option( 'virool_widget_close_after' );
         <tr valign="top" class="virool-widget-settings overlay-settings" <?php if ($virool_integration != 'overlay') { echo "style='display: none;'"; } ?>>
           <th scope="row"><label for="virool_widget_timer_text">Timer text:</label></th>
           <td>
-            <input type="text" name="virool_widget_timer_text" id="virool_widget_timer_text" value="<?php echo $virool_widget_timer_text; ?>" size="80"/>
+            <input type="text" name="virool_widget_timer_text" id="virool_widget_timer_text" value="<?php echo stripslashes($virool_widget_timer_text); ?>" size="80"/>
             <p class="description">Optional. Countdown text. [COUNT] is a placeholder which will be replaced with remaining seconds. (default: 'Return to site in [COUNT] sec')</p>
           </td>
         </tr>

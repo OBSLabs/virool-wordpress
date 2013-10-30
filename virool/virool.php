@@ -70,11 +70,11 @@ function virool_footer() {
       if (!empty($virool_widget_height))
         array_push($options, array('height', $virool_widget_height));
       if (!empty($virool_widget_header_text))
-        array_push($options, array('headerText', $virool_widget_header_text));
+        array_push($options, array('headerText', stripslashes($virool_widget_header_text)));
       if (!empty($virool_widget_close_text))
-        array_push($options, array('closeText', $virool_widget_close_text));
+        array_push($options, array('closeText', stripslashes($virool_widget_close_text)));
       if (!empty($virool_widget_timer_text))
-        array_push($options, array('timerText', $virool_widget_timer_text));
+        array_push($options, array('timerText', stripslashes($virool_widget_timer_text)));
       if (!empty($virool_widget_close_after))
         array_push($options, array('closeAfter', $virool_widget_close_after));
 
