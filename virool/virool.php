@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Virool Widget
+Plugin Name: Virool
 Plugin URI: http://www.virool.com/docs/wordpress-integration
-Description: Virool Widget plugin
+Description: Virool plugin provides super easy integration with Virool ad network. This plugin can automatically insert video ad into your blog.
 Author: Virool
 Author URI: http://virool.com/
 Version: 1.0.0
