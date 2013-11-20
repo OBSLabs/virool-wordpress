@@ -1,6 +1,5 @@
 === Virool ===
 Contributors: virool-inc
-Donate link:
 Tags: virool, widget, ads, affiliate, plugin, plugins
 Requires at least: 3.3
 Tested up to: 3.7.1
